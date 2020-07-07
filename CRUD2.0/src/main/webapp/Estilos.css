@@ -1,0 +1,26 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 6/07/2020, 06:01:35 PM
+    Author     : VIMAHICASTILLO
+*/
+ tabla {
+                width:100%;
+            }
+            th, td {
+                padding: 15px;
+                text-align: left;
+            }
+            table#t01 tr:nth-child(even) {
+                background-color: #FFC0CB;
+            }
+            table#t01 tr:nth-child(odd) {
+                background-color: #fff;
+            }
+            table#t01 th {
+                background-color: lightcoral;
+                color: DimGrey;
+            }
